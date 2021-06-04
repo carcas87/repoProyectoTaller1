@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/*aqui importar la fuente de la 1° opcion*/
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box; 
+}
+                            /*seccion para poder modificar el elemento padre modificara tam de tipografia total
+html{
+    font-size: 1rem; 
+}*/
+body{       /*seccion para ajustar el elemento ala pagina q no se vea la barra tab ejes x / y*/
+    overflow-x: hidden;
+}
+#div1{
+    background: linear-gradient(90deg, rgba(15,219,151,1) 0%, rgba(78,17,124,1) 42%, rgba(198,29,29,1) 100%);
+    color: white;
+    font-family: 'Satisfy', cursive;
+    /*aqui dice usaremos la letra satisfy, y si no ve la opcion cursive*/
+    /*font-size: 30px;            aqui cambiamos tamaño de la letra*/
+    font-weight: lighter;          /* aqui cambiamos lo negrito de mi letra puede ser en numero o bolder, lighter*/
+    height: 200px;              /*aqui ajustamos lo alto  y ancho de un elemento*/
+    width: 200px;                /*aqui ajustamos lo acho del elemento*/
+    /*opacity: 0,5;     opacidad si es menos al cero se hace mas trasparente SE HACE todo trasparente */
+    visibility: visible;         /*  hidden  ó aqui podemos aplicar si queremos que se vea un elemento*/
+   /* font-size: 60px;*/
+    /*box-sizing:  border-box;    line para que me tome encuenta el tamaño que ponga sin tner q modificar mas*/
+                                /*el box sizing es recomndable ponerlo en todos los elemtos*/
+}        
+
+h1{
+/* font-size:  1rem;*/
+    background-color: gray;
+    width: 200vw; /*puede tambien usarse  vw / vh*/ 
+    height: 100%;
+}
+                        /*seccion para poder mandar solo modificar un grupo de atributos       
+.grupoDiv{
+    font-size: 0.5rem;
+}*/
+table, th, td, tr{/*seccion para modificar la tbl y poner lineas */
+    border: 1px solid black;/*ancho de la linea de tabla*/
+    border-collapse: collapse;
+}
+
+th, tr{
+    padding: 10px;/*andcho de la linea de las caja de tabla*/
+}
+th{
+    background-color: rgb(19, 18, 18);
+    color: white
+}

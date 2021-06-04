@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    /*aqui puedo recortar la pagina que no aparaecza la barra de ajuste*/
+}
+
+#div1 {
+    background-color: rgb(235, 8, 204);
+    color: blanchedalmond;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.grupoDiv {
+    background-color: rgb(235, 8, 204);
+    color: blanchedalmond;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#p1 {
+    margin-top: 20px;
+    /*margenes blancos del parrafo*/
+    margin-left: 20px;
+    background-color: gainsboro;
+    width: 97%;
+    /*puede tambien usarse  vw / vh*/
+    height: 100%;
+    /*line para mod caja parrafo*/
+    border: 2px solid black;
+    /*ancho de la linea de tabla*/
+    border-collapse: collapse;
+    padding: 15px;
+    /*ajusto el txt del parrafo respecto la caja*/
+    box-sizing: border-box;
+    /*aqui cualquier tamaño de cja me lo ajusta al padding*/
+}
+
+#div3 {
+    /*seccion imagen la englobe en un container*/
+    margin-top: 3px;
+    margin-left: 20px;
+    /*margenes blancos del parrafo*/
+}
+
+.img2 {       /*secc para manipular imagen la mando llamar com .img2 */
+    height: auto;
+    width: auto;
+    max-width: 30%;
+    max-height: auto;
+}
+
+#div2 {
+    margin-top: 20px;
+    background-color: black;
+    color: blanchedalmond;
+    height: 50px;
+    /*lineas para modificar ancho y alto de color de caja*/
+    width: 100%;
+    padding: 15px;
+    /*ajusto el txt de la caja*/
+    box-sizing: border-box;
+    /*aqui cualquier tamaño de cja me lo ajusta al padding*/
+}

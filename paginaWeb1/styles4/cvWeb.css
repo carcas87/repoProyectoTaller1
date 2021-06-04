@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*inicia code bara nav*/
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: none;
+
+    background: linear-gradient(180deg, rgb(239, 241, 241) 0%, rgb(165, 164, 165) 42%, rgb(41, 40, 40) 100%);
+
+    padding: 15px 0px;
+    
+}
+
+.img1 {       /*secc para manipular imagen la mando llamar com .img */
+    height: 50%;
+    width: 35%;
+    position: absolute;
+    top: 30%;
+    
+}
+
+#footer2{   /*secc para man. fondo pantalla*/
+    background-color: rgb(12, 12, 12);
+    position: absolute;
+     width: 100vw;
+     height: 100vh;
+    
+    
+}
+#divName{
+    text-decoration: none;
+    color: rgb(207, 207, 206);
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    right: 18%;
+    top: 10%;
+}
+p{
+    position: absolute;
+    color: rgb(207, 207, 206);
+}
+#divoct1{
+    top: 40%;
+
+    
+
+}
