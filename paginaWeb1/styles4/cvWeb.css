@@ -37,14 +37,40 @@ ul {
     font-family: 'Orbitron', sans-serif; 
     width: 50%;
     height: 30%;
-   
-
 }
 
+#fila3{
+    display: grid ;
+grid-template-columns: 60%;
+    background-color: tomato;
+     font-family: 'Orbitron', sans-serif; 
+     
 
+}
+#lblintro{
+    font-family: "Orbitron", sans-serif;
+}
 
-
-
+#lblhome{
+    
+    font-family: 'Orbitron', sans-serif; 
+    
+}
+#lblresume{
+    
+    font-family: 'Orbitron', sans-serif; 
+    
+}
+#lblportafolio{
+    
+    font-family: 'Orbitron', sans-serif; 
+    
+}
+#lblvideo{
+    
+    font-family: 'Orbitron', sans-serif; 
+    
+}
 
 
 
