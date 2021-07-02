@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+p{
+    text-align: center;
+    display: none;
+}
+body{
+background-color: black;
+}
+#btnOn:checked~ .txtOtro{
+    display: none;
+    display: block;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.txtOtro{
+    text-align: center;
+    display: none;
+    color: rgb(160, 160, 187);
+    font-size: 2em;
+    font-family: fantasy ;
+}
+

@@ -5,71 +5,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carlos J.Castillo</title><!-- change tip nav web-->
     <link rel="stylesheet" href="./styles4/cvWeb.css">
     <!--aquie se linkea con el navegador-->
 </head>
-<div id="contenedor">
 
-    <body>
-        <nav>
-            <!-- inicia la barra de nav en html no maquetar en tabla-->
-            <ul>
-                <li><a href="">Carlos J. Castillo</a></li>
-                <li><a href="/">Home</a> </li>
-                <li><a href="/">Resume</a></li>
-                <li><a href="/">Portafolio</a></li>
-                <li><a href="/">Videos</a></li>
-                <li><a href="/">Contact</a></li>
-            </ul>
-        </nav>
-        <!--inicia secc de contenido-->
-<main>
-    <div id="fila1">
-        <img src="./styles4/pentagon2.JPG" alt="pentagonfoto" class="img1" float:left />
-                        <!-- inicia nobmre princ-->
-                        <div id="fila2">
-        
-                            <h1>Carlos J. Castillo</h1>
-                        <p>ing.Sistemas Computacionale~Tec.Mecatronica~T.M.Aviación</p>
-                          </div> 
-                          <div id="fila3">        <!-- fila de prim fila de octgns-->
-                            <div id="divoct1">
-                                <img src="./styles4/octagon1.JPG" alt="octagon1" class="oct1" />   
-                                    <label id="lblintro">Portafolio</label>
-                                <img src="./styles4/octagon1.JPG" alt="octagon1" class="oct1" /> 
-                                    <label id="lblhome"  >Home</label>
-                                <img src="./styles4/octagon1.JPG" alt="octagon1" class="oct1" />   
-                                    <label id="lblresume">Resume</label>
-                                
-                               
-                        </div>
-                        
-                        <div id="fila4">        <!-- fila de sec fila de octgns-->
-
-                            <img src="./styles4/octagon1.JPG" alt="octagon1" class="oct1" />   
-                                    <label id="lblportafolio">Portafolio</label>
-                            <img src="./styles4/octagon1.JPG" alt="octagon1" class="oct1" /> 
-                                <label id="lblvideo">Video </label>
-                            <img src="./styles4/octagon1.JPG" alt="octagon1" class="oct1" />   
-                                <label id="lblvideo">Video </label>
-                        </div>
-
+<body>
+    <nav>
+        <!-- inicia la barra de nav en html no maquetar en tabla-->
+        <ul>
+            <li><a href="">Carlos J. Castillo</a></li>
+            <li><a href="/indexWeb.html">Home</a> </li>
+            <li><a href="/">Resume</a></li>
+            <li><a href="/">Portafolio</a></li>
+            <li><a href="./indexVideo.html">Videos</a></li>
+            <li><a href="/">Contact</a></li>
+            <form action="http://google.com/search" method="get">
+                <label for="busqueda">Search</label>
+                <input type="search" id="busqueda" name="q"/>
+                <input type="submit" value="Find"/>
+              </form>
+        </ul>
+    </nav>
+    <!--inicia secc de contenido-->
+    <div id="contenedor">
+        <div id="pentagon">
+            <img src="./styles4/pentagon2.JPG" alt="pentagonfoto" class="img1" />
+        </div>
+        <!-- inicia nobmre princ-->
+        <div id="name1">
+            <h1>Carlos J. Castillo</h1>
+            <hr>
+            <center>
+                <p>ing.Sistemas Computacionales~Tec.Mecatronica~T.M.Aviación</p>
+            </center>
+        </div>
+        <div id="intro">
+            <!--octagon 1-->
+            <div id="divoct1">
+                <img src="./styles4/octagon1.JPG" alt="octagon1" class="oct1" />
+                <center>
+                    <p id="lblintro">Intro</p>
+                </center>
+            </div>
+        </div>
+        <div id="home">
+            <!-- octagon2-->
+            <div id="divoct2">
+                <img src="./styles4/octagon1.JPG" alt="octagon1" class="oct1" />
+                <center>
+                    <p id="lblintro">Home</p>
+                </center>
+            </div>
+        </div>
+        <div id="resume">
+            <!-- octagon3-->
+            <div id="divoct2">
+                <img src="./styles4/octagon1.JPG" alt="octagon1" class="oct1" />
+                <center>
+                    <p id="lblintro">Resume</p>
+                </center>
+            </div>
+        </div>
+        <div id="portafolio">
+            <!-- octagon3-->
+            <div id="divoct2">
+                <img src="./styles4/octagon1.JPG" alt="octagon1" class="oct1" />
+                <center>
+                    <p id="lblintro">Portafolio</p>
+                </center>
+            </div>
+        </div>
+        <div id="videos">
+            <!-- octagon3-->
+            <div id="divoct2">
+                <img src="./styles4/octagon1.JPG" alt="octagon1" class="oct1" />
+                <center>
+                    <p id="lblintro">Video</p>
+                </center>
+            </div>
+        </div>
+        <div id="contact">
+            <!-- octagon3-->
+            <div id="divoct2">
+                <img src="./styles4/octagon1.JPG" alt="octagon1" class="oct1" />
+                <center>
+                    <p id="lblintro">Contact</p>
+                </center>
+            </div>
+        </div>
     </div>
-    
 
-
-
-    
-    </div>
-    </main>
-<div>
     <footer id=footer1>
-        All Reserved Rights @CarlosCastillo 2021
+        <hr>
+     <center><br>All Reserved Rights @CarlosCastillo 2021</center>
+     
     </footer>
-
-
-
+    </div>
 </body>
-</div>
+
 </html>

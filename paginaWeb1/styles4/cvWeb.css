@@ -4,17 +4,23 @@
     padding: 0;
 }
 
-#contenedor
-{
-    background-color: rgb(92, 90, 90);
-
+#contenedor {
+    background-color: rgb(12, 12, 12);
+    width: auto;
 }
-/*inicia code bara nav*/
+
+/*starts code  nav bar*/
 
 a {
     text-decoration: none;
     color: black;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron' ;
+    font-weight: bold ;
+}
+
+a:hover {
+    /*code for change color selector on pointer*/
+    background-color: rgb(211, 209, 209);
 }
 
 ul {
@@ -23,63 +29,108 @@ ul {
     background-color: none;
     background: linear-gradient(180deg, rgb(239, 241, 241) 0%, rgb(165, 164, 165) 42%, rgb(41, 40, 40) 100%);
     padding: 15px 0px;
-}
-/*secc para manipular imagen la mando llamar com .img */
-#fila1
-{
-    width: 100%;
-    background-color: teal;
+    list-style: none;
+    /*estilo para quitar los puntos de descrip de bar*/
 }
 
-#fila2{ 
-  float: right;
-   background-color: tomato;
-    font-family: 'Orbitron', sans-serif; 
-    width: 50%;
+/*secc para manipular imagen la mando llamar com .img */
+
+#pentagon {
+    position: relative;
+    top: 105pt;
+}
+
+#img1 {
+    width: 100px;
+    height: 200px;
+}
+
+#name1 {    /*propierty for manipulate the divname*/
+    position: relative;
+    top: -30vh;
+    right: -35vw;
+    font-family: 'Orbitron', sans-serif;
+    padding: 30px;
+    width: 60%;
+    height: 40%;
+    color: #cfcfce;
+}
+
+#intro {
+    position: relative;
+    top: -20vh;
+    right: -30vw;
+    width: 14%;
     height: 30%;
 }
 
-#fila3{
-    display: grid ;
-grid-template-columns: 60%;
-    background-color: tomato;
-     font-family: 'Orbitron', sans-serif; 
-     
-
+#home {
+    position: relative;
+    top: -42vh;
+    right: -50vw;
+    width: 14%;
+    height: 30%;
 }
-#lblintro{
+
+#resume {
+    position: relative;
+    top: -64vh;
+    right: -70vw;
+    width: 14%;
+    height: 30%;
+}
+
+#portafolio {
+    position: relative;
+    top: -50vh;
+    right: -30vw;
+    width: 14%;
+    height: 30%;
+}
+
+#videos {
+    position: relative;
+    top: -72vh;
+    right: -50vw;
+    width: 14%;
+    height: 30%;
+}
+
+#contact {
+    position: relative;
+    top: -94vh;
+    right: -71vw;
+    width: 14%;
+    height: 30%;
+}
+
+#lblintro {
     font-family: "Orbitron", sans-serif;
+    flex-direction: column;
+    color: #cfcfce;
 }
 
-#lblhome{
-    
-    font-family: 'Orbitron', sans-serif; 
-    
-}
-#lblresume{
-    
-    font-family: 'Orbitron', sans-serif; 
-    
-}
-#lblportafolio{
-    
-    font-family: 'Orbitron', sans-serif; 
-    
-}
-#lblvideo{
-    
-    font-family: 'Orbitron', sans-serif; 
-    
+#lblhome {
+    font-family: 'Orbitron', sans-serif;
 }
 
+#lblresume {
+    font-family: 'Orbitron', sans-serif;
+}
 
+#lblportafolio {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#lblvideo {
+    font-family: 'Orbitron', sans-serif;
+}
 
 #footer1 {
-
     /*secc para man. footer*/
-    display: flex;
     justify-content: space-evenly;
     color: #cfcfce;
-    font-family: 'Orbitron', sans-serif; 
+    font-family: 'Orbitron', sans-serif;
     background-color: black;
+    padding: 20px;
 }
