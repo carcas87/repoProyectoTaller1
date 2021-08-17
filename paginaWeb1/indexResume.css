@@ -1,0 +1,37 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Orbitron' ;
+    font-weight: bold ;
+}
+
+a:hover {
+    /*code for change color selector on pointer*/
+    background-color: rgb(211, 209, 209);
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: none;
+    background: linear-gradient(180deg, rgb(239, 241, 241) 0%, rgb(165, 164, 165) 42%, rgb(41, 40, 40) 100%);
+    padding: 15px 0px;
+    list-style: none;
+    /*estilo para quitar los puntos de descrip de bar*/
+}
+body{
+    background-color: black;
+}
+.pdf{
+    
+margin: auto;
+display: block;
+    width: 130vh;
+    height: 90vw;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
